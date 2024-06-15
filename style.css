@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkslateblue;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.right {
+    word-spacing: 20px;
+}
+.b1 {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+.b2 {
+    padding: 10px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: 1px solid ;
+    cursor: pointer;
+    width: 100px;
+}
+ul {
+    display: flex;
+}
+li {
+    margin: 7px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h3 {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+.arrow {
+    color: white;
+    position: relative;
+    top: 1px;
+}
+.box {
+    width: 600px;
+    text-align: center;
+    padding: 50px;
+}
+.middle {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.we {
+    color: dodgerblue;
+    margin-bottom: 10px;
+}
+.pro {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.txt {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.b {
+    padding: 10px;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.b3 {
+    background-color: dodgerblue;
+}
+.b4 {
+    background-color: transparent;
+}
+.ico {
+    font-size: 36px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.c {
+    border: 1px solid black;
+    width: 320px;
+    height: 270px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 2px;
+}
+.c1 {
+    color: red;
+    background-color: rgba(255, 182, 193, 0.697);
+}
+.c2 {
+    color: mediumseagreen;
+    background-color: lightgreen;
+}
+.c3 {
+    color: dodgerblue;
+    background-color: white;
+}
+.c4 {
+    background-color: dodgerblue;
+    color: white;
+}
+.h {
+    width: 60px;
+    border: 1px solid red;
+}
+.h3 {
+    width: 60px;
+    border: 1px solid white;
+}
